@@ -1,0 +1,82 @@
+// Utilities
+.container {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.background {
+  background: no-repeat center center/cover;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.box {
+  background: $light-blue;
+  color: $light-color;
+  font-size: 3em;
+}
+
+.grid-container .content {
+  h2 {
+    text-transform: uppercase;
+  }
+  p {
+    font-family: 'PT Sans', sans-serif;
+  }
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+// Grid Template Areas
+#item-1 {
+  grid-area: box1;
+}
+#item-2 {
+  grid-area: con1;
+}
+#item-3 {
+  grid-area: img1;
+}
+#item-4 {
+  grid-area: img2;
+}
+#item-5 {
+  grid-area: box2;
+}
+#item-6 {
+  grid-area: con2;
+}
+#item-7 {
+  grid-area: box3;
+}
+#item-8 {
+  grid-area: con3;
+}
+#item-9 {
+  grid-area: img3;
+}
+#item-10 {
+  grid-area: con4;
+}
+#item-11 {
+  grid-area: box4;
+}
