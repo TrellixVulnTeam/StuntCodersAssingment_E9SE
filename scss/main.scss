@@ -21,9 +21,6 @@ body {
 
   .container {
     .content {
-      // height: 100%;
-      // width: 100%;
-      // flex-direction: column;
       color: $light-color;
 
       h1 {
@@ -46,8 +43,6 @@ body {
 
   .container {
     .content {
-      // height: 100%;
-      // width: 100%;
       margin: auto auto;
 
       p {
@@ -60,12 +55,8 @@ body {
 
 // Main Section
 #main-section {
-  // height: 100%;
-  // width: 100%;
   .container {
     .grid-container {
-      // height: 100%;
-      // width: 100%;
       display: grid;
       grid-template-columns: 27% 33% auto;
       grid-template-rows: repeat(4, 1fr);
@@ -75,11 +66,6 @@ body {
         'img2 box2 con2'
         'box3 con3 img3'
         'con4 box4 img3';
-
-      .content {
-        // height: 100%;
-        // width: 100%;
-      }
     }
   }
 }
@@ -92,23 +78,15 @@ body {
   .container {
     .footer-grid {
       position: relative;
-      // height: 100%;
-      // width: 100%;
       display: grid;
       grid-template-columns: 50% 50%;
 
       .f-1 {
         padding: 0 1em;
-
-        h2 {
-          // text-transform: uppercase;
-        }
       }
 
       .logo {
         position: absolute;
-        // height: 100%;
-        // width: 100%;
         display: flex;
         align-items: flex-end;
         justify-content: center;
@@ -116,7 +94,6 @@ body {
 
         h2 {
           font-size: 2.5em;
-          // text-transform: uppercase;
           color: $light-blue;
           font-family: 'PT Sans', sans-serif;
 
@@ -134,7 +111,6 @@ body {
   // Header
   #header {
     .container {
-      // max-width: 1000px;
       .content {
         h1 {
           font-size: 3em;
@@ -150,7 +126,6 @@ body {
   // Mid Section
   #mid-section {
     .container {
-      // max-width: 1000px;
       .content {
         p {
           font-size: 1.5em;
@@ -162,7 +137,6 @@ body {
   // Main Section
   #main-section {
     .container {
-      // max-width: 1000px;
       .grid-container {
         grid-template-columns: 50% 50%;
         grid-template-rows: repeat(6, 1fr);
@@ -188,7 +162,6 @@ body {
   // Header
   #header {
     .container {
-      // max-width: 400px;
       .content {
         h1 {
           font-size: 2em;
@@ -204,7 +177,6 @@ body {
   // Mid Section
   #mid-section {
     .container {
-      // max-width: 400px;
       .content {
         padding: 0 2em;
         p {
@@ -217,7 +189,6 @@ body {
   // Main Section
   #main-section {
     .container {
-      // max-width: 400px;
       .grid-container {
         display: flex;
         flex-direction: column;
@@ -245,7 +216,6 @@ body {
   #footer {
     height: 650px;
     .container {
-      // max-width: 400px;
       .footer-grid {
         position: relative;
         display: grid;
